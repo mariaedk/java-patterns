@@ -1,10 +1,10 @@
-package com.estudos.padroes.factory.simple;
+package com.estudos.padroes.proj.simple;
 
-import com.estudos.padroes.factory.Bebida;
-import com.estudos.padroes.factory.ItemCardapio;
-import com.estudos.padroes.factory.Pizza;
-import com.estudos.padroes.factory.Salada;
-import com.estudos.padroes.factory.domain.TipoItem;
+import com.estudos.padroes.proj.Bebida;
+import com.estudos.padroes.proj.ItemCardapio;
+import com.estudos.padroes.proj.Pizza;
+import com.estudos.padroes.proj.Salada;
+import com.estudos.padroes.proj.domain.TipoItem;
 
 /**
  * @author maria

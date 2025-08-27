@@ -1,4 +1,4 @@
-package com.estudos.padroes.factory;
+package com.estudos.padroes.proj;
 
 /**
  * @author maria
