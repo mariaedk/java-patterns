@@ -1,11 +1,13 @@
 package com.estudos.padroes.proj;
 
+import com.estudos.padroes.proj.prototype.Prototype;
+
 /**
  * @author maria
  * @date 01/06/2025
  * @description Classe Pizza
  */
-public class Pizza implements ItemCardapio {
+public class Pizza implements ItemCardapio, Prototype<Pizza> {
 
     private String sabor1;
     private String sabor2;
@@ -24,6 +26,10 @@ public class Pizza implements ItemCardapio {
     public Pizza(String descricao, double preco) {
         this.descricao = descricao;
         this.preco = preco;
+    }
+
+    public Pizza(String sabor1) {
+        this.sabor1 = sabor1;
     }
 
     public Pizza(String sabor1, String sabor2, String sabor3, String sabor4, String tamanho, boolean bordaRecheada, boolean extraQueijo, String descricao, double preco) {
@@ -110,5 +116,10 @@ public class Pizza implements ItemCardapio {
 
     public void setPreco(double preco) {
         this.preco = preco;
+    }
+
+    @Override
+    public Pizza clone() {
+        return new Pizza(this.sabor1);
     }
 }

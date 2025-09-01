@@ -1,4 +1,4 @@
-package com.estudos.padroes.singleton;
+package com.estudos.padroes.proj.singleton;
 
 /**
  * @author maria

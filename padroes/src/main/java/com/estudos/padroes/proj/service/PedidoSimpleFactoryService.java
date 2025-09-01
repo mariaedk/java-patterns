@@ -1,4 +1,4 @@
-package com.estudos.padroes.service;
+package com.estudos.padroes.proj.service;
 
 import com.estudos.padroes.proj.ItemCardapio;
 import com.estudos.padroes.proj.domain.TipoItem;
